@@ -16,7 +16,7 @@ fs.writeFile("extension.json", '{"name": "paco","surname":"lopez","age": 50}', (
             if (error) {
                 console.log("Error de lectura")
             } else {
-                console.log("Se ha creado el fichero correctamente", data);
+                console.log("Se ha creado el fichero correctamente", data)
             }
         }
     )
