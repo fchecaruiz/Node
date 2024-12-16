@@ -7,7 +7,7 @@ let objeto = {
 };
 
 
-fs.writeFile("extension.json", '{"name": "paco","surname":"lopez","age": 50}', (error) => {
+fs.writeFile("extension.json", '{"name": "paco","surname":"lopez","age": 50}', (error,data) => {
     if (error) {
         console.log("Error de lectura")
     } else {
